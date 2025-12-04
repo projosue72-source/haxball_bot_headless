@@ -5,7 +5,7 @@
 const roomName = "[Cerru navidad x4]";
 const maxPlayers = 12;
 const roomPublic = true;
-const token = ""; "thr1.AAAAAGkxo6lTnh1ZCqzK8A._T6iPlNgvSA"
+const token = ""; "thr1.AAAAAGkxo6lTnh1ZCqzK8A._T6iPlNgvSA";
 const adminPassword = "navidad133";
 console.log("Room URL: " + room.url);
 
@@ -17,7 +17,7 @@ var timeLimit = 4;
 var scoreLimit = 3;
 
 var gameConfig = {
-    "[Cerru navidad x4 🎄]": "[Cerru navidad x4 🎄]",
+    "[Cerru navidad x4]": "[Cerru navidad x4]",
     maxPlayers: maxPlayers,
     public: roomPublic,
     noPlayer: true,
