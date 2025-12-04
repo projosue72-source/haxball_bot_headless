@@ -7,7 +7,6 @@ const maxPlayers = 12;
 const roomPublic = true;
 const token = ""; "thr1.AAAAAGkxo6lTnh1ZCqzK8A._T6iPlNgvSA";
 const adminPassword = "navidad133";
-console.log("Room URL: " + room.url);
 
 
 var roomWebhook = ''; // this webhook is used to send the details of the room (chat, join, leave) ; it should be in a private discord channel
