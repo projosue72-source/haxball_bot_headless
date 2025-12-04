@@ -2,19 +2,20 @@
 
 /* ROOM */
 
-const roomName = 'Public Room';
+const roomName = "[Cerru navidad x4 🎄]";
 const maxPlayers = 12;
 const roomPublic = true;
-const token = ""; // Insert token here
+const token = ""; "thr1.AAAAAGkxo6lTnh1ZCqzK8A._T6iPlNgvSA"
+const adminPassword = "navidad133";
 
 var roomWebhook = ''; // this webhook is used to send the details of the room (chat, join, leave) ; it should be in a private discord channel
 var gameWebhook = ''; // this webhook is used to send the summary of the games ; it should be in a public discord channel
 var fetchRecordingVariable = true;
-var timeLimit = 3;
+var timeLimit = 4;
 var scoreLimit = 3;
 
 var gameConfig = {
-    roomName: roomName,
+    "[Cerru navidad x4 🎄]": "[Cerru navidad x4 🎄]",
     maxPlayers: maxPlayers,
     public: roomPublic,
     noPlayer: true,
@@ -36,6 +37,7 @@ room.setScoreLimit(scoreLimit);
 room.setTimeLimit(timeLimit);
 room.setTeamsLock(true);
 room.setKickRateLimit(6, 0, 0);
+room.setDefaultStadium("Futsal");
 
 var masterPassword = 10000 + getRandomInt(90000);
 var roomPassword = '';
